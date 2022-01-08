@@ -2,9 +2,9 @@
 
 http://baklava.space/. Feel free to read the code. More details coming soon.
 
-Deployed Contracts / Hash
+## Deployed Contracts / Hash
 
-Avalanche Mainnet
+# Avalanche Mainnet
 
 BavaToken - https://snowtrace.io/address/0xe19A1684873faB5Fb694CfD06607100A632fF21c
 
