@@ -11,13 +11,13 @@ Feel free to read the code. More details coming soon.
 * BavaToken : https://snowtrace.io/address/0xe19A1684873faB5Fb694CfD06607100A632fF21c
 
 * BavaMasterFarmerV2 : https://snowtrace.io/address/0xb5a054312a73581a3c0fed148b736911c02f4539
+* BavaMasterFarmerV2_3 : https://snowtrace.io/address/0x25Fc2D200F31485A58AE704403316791e65fAB0E#code
 
 * BavaMasterFarmerV2_3 : https://snowtrace.io/address/0x25Fc2D200F31485A58AE704403316791e65fAB0E#code
 
 ### CompoundPool(V2_3)
 
 * AVAX-USDT.e	https://snowtrace.io/address/0x62d8ec77dac6315b70ed6930c18813e5f7e11b93#code
-
 * AVAX-USDC.e	https://snowtrace.io/address/0xD363672F3344126dd025f7DD2dCaD785fe6a9c27#code
 
 * AVAX-PNG	https://snowtrace.io/address/0xd0aff5EB329B1D2914C0ABebFDa4e3DaDceB8059#code
