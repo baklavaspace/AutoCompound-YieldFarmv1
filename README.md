@@ -6,13 +6,13 @@ http://baklava.space/. Feel free to read the code. More details coming soon.
 
 ### Avalanche Mainnet
 
-* BavaToken - https://snowtrace.io/address/0xe19A1684873faB5Fb694CfD06607100A632fF21c
+* BavaToken : https://snowtrace.io/address/0xe19A1684873faB5Fb694CfD06607100A632fF21c
 
-* BavaMasterFarmerV2 - https://snowtrace.io/address/0xb5a054312a73581a3c0fed148b736911c02f4539
+* BavaMasterFarmerV2 : https://snowtrace.io/address/0xb5a054312a73581a3c0fed148b736911c02f4539
 
-BavaMasterFarmerV2_3 : https://snowtrace.io/address/0x25Fc2D200F31485A58AE704403316791e65fAB0E#code
+* BavaMasterFarmerV2_3 : https://snowtrace.io/address/0x25Fc2D200F31485A58AE704403316791e65fAB0E#code
 
-### Compound Pool
+### CompoundPool(V2_3)
 
 AVAX-USDT.e	https://snowtrace.io/address/0x62d8ec77dac6315b70ed6930c18813e5f7e11b93#code
 
