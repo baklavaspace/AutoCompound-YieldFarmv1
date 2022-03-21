@@ -19,6 +19,7 @@ Feel free to read the code. More details coming soon.
 * BavaMasterFarmerV2_3  : https://snowtrace.io/address/0x25Fc2D200F31485A58AE704403316791e65fAB0E#code
 
 ### CompoundPool(V2_3)
+#### Pangolin LP
 
 * AVAX-USDT.e  : https://snowtrace.io/address/0x62d8ec77dac6315b70ed6930c18813e5f7e11b93#code
 
