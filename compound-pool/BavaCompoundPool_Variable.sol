@@ -43,8 +43,8 @@ contract BavaCompoundPool_Variable is BRTERC20 {
         uint256 restakingFarmID;            // RestakingFarm ID
     }
 
-    IERC20 private constant WAVAX = IERC20(0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7);     // 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7
-    IERC20 private constant USDCE = IERC20(0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664);     // 0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664
+    IERC20 private constant WAVAX = IERC20(0x52B654763F016dAF087d163c9EB6c7F486261019);     // 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7
+    IERC20 private constant USDCE = IERC20(0x3800955b7A4233A2a4f2344a43362D9126E9FC81);     // 0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664
     uint256 public MIN_TOKENS_TO_REINVEST;
     uint256 public DEV_FEE_BIPS;
     uint256 public REINVEST_REWARD_BIPS;
@@ -428,12 +428,10 @@ contract BavaCompoundPool_Variable is BRTERC20 {
         uint256 rewardLength = bonusRewardTokens.length;
         uint256 bonusRewardBal;
         if(rewardLength > 0) {
-            if (address(poolRestaking.pglStakingContract.rewarder(poolRestaking.restakingFarmID)) != address(0)) {
-                (, pendingBonusToken) = IRewarder(poolRestaking.pglStakingContract.rewarder(poolRestaking.restakingFarmID)).pendingTokens(poolRestaking.restakingFarmID, address(this), pendingRewardAmount);
-                for (uint i; i < rewardLength; i++) {
-                    bonusRewardBal = bonusRewardTokens[i].balanceOf(address(this));
-                    pendingBonusToken[i] += bonusRewardBal;
-                }
+            (, pendingBonusToken) = IRewarder(poolRestaking.pglStakingContract.rewarder(poolRestaking.restakingFarmID)).pendingTokens(poolRestaking.restakingFarmID, address(this), pendingRewardAmount);
+            for (uint i; i < rewardLength; i++) {
+                bonusRewardBal = bonusRewardTokens[i].balanceOf(address(this));
+                pendingBonusToken[i] += bonusRewardBal;
             }
         }
         return (pendingRewardAmount+rewardBalance, pendingBonusToken);
