@@ -33,3 +33,9 @@ Feel free to read the code. More details coming soon.
 
 * USDC.e-USDT.e: https://snowtrace.io/address/0x67d566e90ab1343eb5b60c8bcb5f44da11beef77#code
 
+* BAVA-AVAX: https://snowtrace.io/address/0xF6E0A64a177228c9646d867246B6cABC1E80c8dc#code
+
+* sAVAX-AVAX: https://snowtrace.io/address/0x2811D861777C8f81581ec84784AB53aF68Dc3e9F#code
+
+* USDC-USDC.e: https://snowtrace.io/address/0x95fa0768902Be83704DE0EaB18f61cB7E540D2aB#code
+
