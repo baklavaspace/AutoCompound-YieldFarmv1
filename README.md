@@ -39,3 +39,4 @@ Feel free to read the code. More details coming soon.
 
 * USDC-USDC.e: https://snowtrace.io/address/0x95fa0768902Be83704DE0EaB18f61cB7E540D2aB#code
 
+* PNG: https://snowtrace.io/address/0x4Ec05b8a6cf887F06e70e9C8a7Aaa244228b2833#code
